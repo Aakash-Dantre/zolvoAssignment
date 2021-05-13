@@ -1,4 +1,4 @@
-a# Zolvo Assignment
+# Zolvo Assignment
 
 - backend in django
 - frontend in react

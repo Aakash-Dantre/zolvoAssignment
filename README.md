@@ -7,11 +7,12 @@
 ## setup backend
 - Install dependencies
 ```
+cd backend
 pip3 install -r requirements.txt
 ```
 - Add postgres database credentials to django settings.py
 ```
-cd backend/backend/settings.py
+cd backend/settings.py
 subl settings.py
 
 DATABASES = {
@@ -39,6 +40,7 @@ python3 manage.py migrate
 ```
 - run backend **on port 8000**
 ```
+cd ..
 python3 manage.py runserver
 ```
 ## setup frontend

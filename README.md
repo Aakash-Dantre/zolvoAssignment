@@ -12,9 +12,10 @@ pip3 install -r requirements.txt
 ```
 - Add postgres database credentials to django settings.py
 ```
-cd backend/settings.py
+cd myproj/settings.py
 subl settings.py
 
+for eg.
 DATABASES = {
     'default': {
         # 'ENGINE': 'django.db.backends.sqlite3',
@@ -35,12 +36,13 @@ DATABASES = {
 ```
 - makemigrations and migrate models to database
 ```
+cd ..
 python3 manage.py makemigrations
 python3 manage.py migrate
 ```
 - run backend **on port 8000**
 ```
-cd ..
+
 python3 manage.py runserver
 ```
 ## setup frontend
